@@ -42,5 +42,11 @@ public class SimpleCalculator {
                 break;
 
             default:
-                System.out.println("Invalid op
+                System.out.println("Invalid operator!");
+                return;
+        }
+
+        System.out.println("Result = " + result);
+    }
+}
 
